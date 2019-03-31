@@ -1,0 +1,49 @@
+body {
+    background-image: url(img/mt-fuji-1352353_1920.jpg);
+    background-position: center;
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.open{
+    color: black;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.nav {
+    width: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(23, 22, 36, 0.9);
+    transition: .9s;
+    display: block;
+}
+.nav a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0; 
+    transition: .5s;
+    clear: right;
+}
+.close{
+    float: right;
+    font-size: 30px;
+    margin: 20px 50px;
+}
+.nav a:not(:first-child):hover {
+    background: #ff9817;
+    
+}
